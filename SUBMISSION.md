@@ -26,9 +26,9 @@ The first argument is the Alt-text for the image. The second argument is the pat
 - [5 pts] A screen capture showing the version of Maven that you installed and its install directory.
 ![Maven Home and Version #5](https://github.com/depaulcdm/hw4-Unsagiro/blob/master/%5Bimages%5D(images)/Maven%20Home%20and%20Version%20%235.JPG)
 - [10 pts] A screen capture showing a successful build using the Maven script.
-![Maven Build #6]([images](https://github.com/depaulcdm/hw4-Unsagiro/blob/master/%5Bimages%5D(images)/Maven%20Build%20%236.JPG)
+![Maven Build #6](https://github.com/depaulcdm/hw4-Unsagiro/blob/master/%5Bimages%5D(images)/Maven%20Build%20%236.JPG)
 - [5 pts] A screen capture showing a successful execution of the JAR file created from the Maven build.
-![Maven Jar Run #7]([images](https://github.com/depaulcdm/hw4-Unsagiro/blob/master/%5Bimages%5D(images)/Maven%20Jar%20Run%20%237.JPG)
+![Maven Jar Run #7](https://github.com/depaulcdm/hw4-Unsagiro/blob/master/%5Bimages%5D(images)/Maven%20Jar%20Run%20%237.JPG)
 - [10 pts] Links to the complete and correct [hello-world/pom.xml](hello-world/pom.xml) file.
 
 # Gradle [30 pts]
