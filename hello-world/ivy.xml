@@ -6,6 +6,9 @@
 	configuration should be private.
 	-->
 	<configurations>
+		<conf name="compile" visibility="public"/>
+		
+		<conf name="test"  visibility="private"/>
 	</configurations>
 	
 	<!--
@@ -14,7 +17,7 @@
 	
 	log4j v.1.2.17 (uses the compile->default conf)
 	junit v.4.12   (uses the test->default conf)
-	
+
 	The structure of an Ivy dependency is as follows:
 	
     <dependency conf="..." org="..." name="..." rev="..." />
@@ -24,5 +27,10 @@
 	version.
 	-->	
     <dependencies defaultconf="compile">
+		<dependency conf="compile->default" org="log4j"
+			name="log4j" rev="1.2.17"/>
+	    <dependency conf="test->default" org="junit"
+			name="junit" rev="4.12"/>
+		
     </dependencies>
 </ivy-module>
